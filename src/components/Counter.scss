@@ -1,0 +1,26 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+
+  .button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgb(55, 150, 246);
+    color: white;
+  }
+
+  .count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+  }
+}
